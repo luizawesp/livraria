@@ -19,10 +19,6 @@ h1{
     
 }
 
-nav{
-
-}
-
 ul{
     margin-top: 0%;
     display: flex;
@@ -36,6 +32,8 @@ ul{
     align-items: center;
     margin: 0;
     max-width: 100%;
+    padding: 5vh;
+    gap: 1em;
 }
 
 .formulario{
@@ -49,6 +47,9 @@ ul{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     
   
+}
+h1.formulario{
+    font-size: medium;
 }
 
 
