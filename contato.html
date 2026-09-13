@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Livraria | Contato</title>
     <link rel="stylesheet" href="contato.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class="site-header">
+        <a class="brand" href="index.html">Livraria</a>
+        <nav aria-label="Navegação principal">
+            <ul class="paginas">
                 <li><a href="index.html">Início</a></li>
-                <li><a href="index.html">Sobre</a></li>
-                <li><a href="index.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a class="active" href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="content">
+    <main class="content">
 
         <div class = "formulario">
-            <h1>Formulário de Contato</h1>
+            <p class="eyebrow">Vamos conversar</p>
+            <h1>Formulário de contato</h1>
             <form>
                 <label>
                     Nome completo:
@@ -43,15 +45,12 @@
         </div>
 
         <div class="contato">
-            <h1>Entre em contato!</h1>
-            <p>Entre em contato para reservar um livro, realizar doações, ou simplesmente deixar uma mensagem!
-            </p>
+            <p class="eyebrow">Fale comigo</p>
+            <h1>Entre em contato</h1>
+            <p>Entre em contato para reservar um livro, realizar doações ou simplesmente deixar uma mensagem.</p>
 
         </div>
         
-    </section>
-        
-
-    
+    </main>
 </body>
 </html>
